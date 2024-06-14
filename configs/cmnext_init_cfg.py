@@ -32,7 +32,7 @@ _C.MODEL.MODALS = ('img', 'noiseprint', 'bayar', 'srm')
 _C.MODEL.DETECTION = None
 _C.MODEL.NUM_CLASSES = 2
 _C.MODEL.TRAIN_PHASE = 'localization'
-_C.MODEL.NP_WEIGHTS = '/content/MMFusion-IML/pretrained/noiseprint/np++.pth'
+_C.MODEL.NP_WEIGHTS = '/content/MMFusion-IML-Colab/pretrained/noiseprint/np++.pth'
 
 # Dataset parameters
 _C.DATASET = CN()
