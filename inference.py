@@ -39,7 +39,7 @@ if device != 'cpu':
     cudnn.enabled = config.CUDNN.ENABLED
 
 
-modal_extractor = ModalitiesExtractor(config.MODEL.MODALS[1:], config.MODEL.NP_WEIGHTS)
+modal_extractor = ModalitiesExtractor(config.MODEL.MODALS[1:], "/content/MMFusion-IML/pretrained/noiseprint/np++.pth")
 
 model = CMNeXtWithConf(config.MODEL)
 
