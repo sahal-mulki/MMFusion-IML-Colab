@@ -155,7 +155,7 @@ if __name__ == '__main__':
     from configs.cmnext_init_cfg import _C as cfg
     logging.basicConfig(level=getattr(logging, 'INFO'))
 
-    model = CMNeXtWithConf(")
+    model = CMNeXtWithConf("/content/MMFusion-IML-Colab/ckpt/early_fusion_detection.pth")
     x = [torch.zeros(1, 3, 1024, 1024), torch.ones(1, 3, 1024, 1024), torch.ones(1, 3, 1024, 1024) * 2,
          torch.ones(1, 3, 1024, 1024) * 3]
     y = model(x)
