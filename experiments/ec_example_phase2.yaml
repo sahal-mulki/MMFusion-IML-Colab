@@ -41,9 +41,9 @@ DATASET:
 MODEL:
   NAME: ec_example_phase2
   MODALS: ['img', 'noiseprint', 'bayar', 'srm']
-  PRETRAINED: '/content/MMFusion-IML/pretrained/segformer/mit_b2.pth'
+  PRETRAINED: '/content/MMFusion-IML-Colab/pretrained/segformer/mit_b2.pth'
   NUM_CLASSES: 2
   BACKBONE: WSCMNeXtMHSA-B2
   DETECTION: 'confpool'
   TRAIN_PHASE: 'detection'
-  NP_WEIGHTS: '/content/MMFusion-IML/pretrained/noiseprint/np++.pth'
+  NP_WEIGHTS: '/content/MMFusion-IML-Colab/pretrained/noiseprint/np++.pth'
